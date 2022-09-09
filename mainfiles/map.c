@@ -61,7 +61,7 @@ void	create_floor(t_game game, int b)
 		j = 0;
 		while (game.map[b][j])
 		{
-			if (!(ft_strchr("1PSE0", game.map[b][j])))
+			if (!(ft_strchr("1PCE0", game.map[b][j])))
 				message(RED"Error\nError Game\n"ENDC, &game);
 			image.relative_path = "./img/floor.xpm";
 			put_image(image, (j * SIZE), (b * SIZE));

@@ -27,7 +27,7 @@ t_block	set_block(char name)
 
 	maps[0] = (t_block){"1", "./img/stone.xpm"};
 	maps[1] = (t_block){"0", "./img/floor.xpm"};
-	maps[2] = (t_block){"S", "./img/strash.xpm"};
+	maps[2] = (t_block){"C", "./img/strash.xpm"};
 	maps[3] = (t_block){"P", "./img/turtle_d.xpm"};
 	maps[4] = (t_block){"E", "./img/hospital.xpm"};
 	maps[5] = (t_block){0, 0};

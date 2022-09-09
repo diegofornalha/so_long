@@ -72,7 +72,7 @@ void	game_control(t_game *game)
 		j = 0;
 		while (game->map[i][j])
 		{
-			if (game->map[i][j] == 'S')
+			if (game->map[i][j] == 'C')
 					game->strashcheck++;
 			if (game->map[i][j] == 'P')
 			{
@@ -92,7 +92,7 @@ int	move_check(t_game *game, int i, int j)
 {
 	if (game->map[i][j] == '1')
 		return (1);
-	else if (game->map[i][j] == 'S')
+	else if (game->map[i][j] == 'C')
 	{
 		game->player.strash++;
 		game->map[i][j] = '0';
